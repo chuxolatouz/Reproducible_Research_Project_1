@@ -26,7 +26,8 @@ hist(x = steps$steps, col = "blue", breaks = 53)
 ```
 3. show mean an median using summary
 ```{r, echo = TRUE}
-summary(steps$steps)
+mean(steps$steps)
+median(steps$steps)
 ```
 
 ## What is the average daily activity pattern?
